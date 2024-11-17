@@ -31,7 +31,7 @@ threshold:0.3
 2024.11.17: best: best.pt  
 
 ## for other groups(if exists)
-the purpose of release is to share my code within out group, and also welcome other groups to imporve together.
+the purpose of release is to share my code within out group, and also welcome other groups to improve together.
 
 for me, copy is discouraged but allowed. `however, you should ask the teacher whether you can do it, and me know`
 
