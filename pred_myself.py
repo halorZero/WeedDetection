@@ -52,6 +52,6 @@ def compute_precision(file1, file2):
     return precision
 
 # 使用函数
-precision_value = compute_precision('val.csv', 'output.csv')
+precision_value = compute_precision('test.csv', 'output.csv')
 print(f'Precision: {precision_value}')
   

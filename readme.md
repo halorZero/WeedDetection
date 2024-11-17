@@ -1,4 +1,5 @@
 # WeedDetection
+github: https://github.com/halorZero/WeedDetection
 
 ## how to start  
 -- requirement.txt
@@ -17,17 +18,22 @@ they are messy. my fault.
 
 -- output.py: make output.csv
 
--- pred_myself.py: pred using val.csv
+-- pred_myself.py: pred using val/test.csv
 
 `any other file, ask me.`
 
 ## method
 yolo11 of ultralytics
 
-threshold:0.41
+threshold:0.3
 
 ## weights
-2024.10.23: best: best.pt  
+2024.11.17: best: best.pt  
 
 ## for other groups(if exists)
-copy is allowed. `however, let the teacher and me know`
+the purpose of release is to share my code within out group, and also welcome other groups to imporve together.
+
+for me, copy is discouraged but allowed. `however, you should ask the teacher whether you can do it, and me know`
+
+## result
+![avartar](image.png)

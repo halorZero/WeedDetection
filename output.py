@@ -3,7 +3,7 @@ import csv
 import os
  
 model_path = r'runs\detect\\train25\weights\\last.pt'
-input_folder_path = 'datasets\mq\images\\val'
+input_folder_path = 'datasets\mq_test\images\\val'
 model = YOLO(model=model_path)
 
 
@@ -26,8 +26,8 @@ for filename in os.listdir(input_folder_path):
     for box in boxes:
         loc=box.xyxy[0].tolist()
         scores=float(box.conf)
-        # if scores<0.41:
-        #     continue
+        if scores<0.3:
+            continue
         classes=int(box.cls)#results[0].names[int(box.cls)]
         i = i+1
         data = {
